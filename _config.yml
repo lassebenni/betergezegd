@@ -1,0 +1,33 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Setup
+title:               BeterGezegd
+tagline:             Of nouja, anders.
+url:                 https://betergezed.nl
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              B Gezegd
+  url:               https://betergezegd.nl
+  email:             bgezegd@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://betergezegd.github.io/
